@@ -62,19 +62,20 @@ def trb():
 ##### LOGO #####
 logo='''
 \033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;94m ┈┈┈▕▕B4 M4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
+\033[1;94m ┈┈┈▕▕S4 T4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕S4 T4▏▏┈┈┈
 \033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mShabirBaloch.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
+\033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mSultantech.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 \033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
 \033[1;96m ╱▔▔▔▔┊┊┊┊▔▔▔▔╲☞☞☞☞☞☞\033[1;91m☜☜☜☜☜╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-\033[1;96m................\033[1;93mShabirBaloch\033[1;91m...............
+\033[1;96m................\033[1;93mSultantech\033[1;91m...............
 \033[1;96m................\033[1;93m✬🄵🄰🄲🄴🄱🄾🄾🄺✬\033[1;91m..............
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-\033[1;91m☞ Auther     : B4_BALOCH_M4_MASTER
-\033[1;92m☞ WhatsApp   : 03232132362
-\033[1;95m☞ YouTube    : https://www.youtube.com/channel/UCAGKWM8EwDFZ9sP8CdJhGBA
+\033[1;91m☞ Author     : Meer Sultan
+\033[1;92m☞ WhatsApp   : 03113628442
+\033[1;95m☞ YouTube    : https://www.youtube.com/channel/UCVCWk2j_NmerbPnuCOmSXMg
+\033[1;95m☞ Facebook   : https://www.facebook.com/meersultan143
 
 \033[1;93m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                                 '''
@@ -105,7 +106,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://www.youtube.com/channel/UCAGKWM8EwDFZ9sP8CdJhGBA')
+		    os.system('xdg-open https://www.youtube.com/channel/UCVCWk2j_NmerbPnuCOmSXMg')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -165,7 +166,7 @@ def mb():
 		pak()
 	elif bm =='2':
 	    os.system('rm -rf $HOME/B4_BALOCH')
-	    os.system('cd $HOME && git clone https://github.com/shabirbaloch125/Baloch')
+	    os.system('cd $HOME && git clone https://github.com/Sultantech/fast')
 	    cb()
 	    print (logo)
 	    psb('☆10%')
@@ -179,15 +180,15 @@ def mb():
 	    psb('☆☆☆☆☆☆☆☆☆90%')
 	    psb('☆☆☆☆☆☆☆☆☆☆100%')
 	    psb('Frends login new Account✓')
-	    psb('WhatsApp Num 03232132362✓')
-	    psb('WellCome To B4_BALOCH')
-	    psb('Congratulations B4_BALOCH Tool Has Been Updated Successfully')
-	    psb('🔓User Name☆ 786786✓')
-	    psb('🔓Password ☆ 786786✓')
-	    psb('Subscrib My Youtube Channel B4 BALOCH M4 MASTER✓')
+	    psb('WhatsApp Num 03113628442✓')
+	    psb('WellCome To fast')
+	    psb('Congratulations fast Tool Has Been Updated Successfully')
+	    psb('🔓User Name☆ sultan✓')
+	    psb('🔓Password ☆ tech✓')
+	    psb('Subscrib My Youtube Channel Sultan Tech✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/B4_BALOCH && python2 B4.py')
+	    os.system('cd $HOME/fast && python2 ST.py')
 	elif bm =='3':
 	    os.system('xdg-open https://chat.whatsapp.com/BcmyQPBz6lz3t6oVN8wLoi')
 	    menu()
